@@ -1,0 +1,20 @@
+{
+  "name": "crickethealth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "startMongo": "mongod",
+    "checkDB": "mongo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "pubnub": "^4.15.1"
+  }
+}

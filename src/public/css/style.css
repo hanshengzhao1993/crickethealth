@@ -1,0 +1,101 @@
+/*Element Tag Style*/
+body{
+  background-color: #eaecef;
+}
+img{
+  height: 100%;
+  background-color: #86888c;
+}
+li{
+  list-style-type: none;
+}
+
+/*Class Tag Style*/
+.logo_bar{
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+.logoname{
+  font-size: 25px;
+}
+.chat-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+.chat-messages{
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  overflow: auto;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+  margin-bottom: 8px;
+}
+.message-parent{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-messages li {
+  margin: 3px 0px;
+}
+.bluetext{
+  color: blue;
+}
+#message{
+  width: 80%;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*ID style*/
+#send{
+  background-color: #5e3f9b;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .chat-messages{
+    width: 450px;
+    height: 350px;
+  }
+  .message-parent{
+    width: 450px;
+  }
+  #message{
+    width: 76%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .chat-messages{
+   display: flex;
+    width: 375px;
+    height: 300px;
+  }
+  .message-parent{
+    width: 375px;
+  }
+  #message{
+    width: 73%;
+  }
+}

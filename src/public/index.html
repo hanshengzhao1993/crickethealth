@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cricket Health Chat</title>
+  <!-- PubNub -->
+  <script type="text/javascript" src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.15.1.min.js"></script>
+  <!-- Axios -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+  <!-- JavaScript File -->
+  <script type="text/javascript" src="js/main.js"></script>
+  <!-- Css Files -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Heading -->
+  <div class="logo_bar">
+    <img src="assets/crickethealth.png">
+  </div>
+  <!-- Main Body -->
+  <div class="parent-container">
+    <div class="chat-parent">
+
+      <div class="chat-messages" id="chat_div">
+        <ul id="chat"></ul>
+      </div>
+      <!-- input and button -->
+      <div class="message-parent">
+        <input class="written-message container-fluid" id="message" placeholder=" type your note"></input>
+
+        <button class="send-message btn btn-primary" id="send"><strong> Send</strong></button>
+      </div>
+   
+    </div>
+    
+
+  </div>
+</body>
+</html>
