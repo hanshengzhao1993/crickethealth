@@ -9,15 +9,15 @@ Step 1: Required to install on computer
 Step 2:
 - Go to the root directory
 
-Step 3:
+Step 3: 
 
 - npm install
 
-step 4: Starting Mongod
+step 4: First Terminal Window
 
 - npm run startMongo
 
-Step 5: 
+Step 5: Second Terminal Window
 
 - npm start
 
